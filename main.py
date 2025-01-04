@@ -1,9 +1,7 @@
 def print_hello(name:str) -> str:
     return f"Hello, {name}!"
 
-
-response = print_hello("Marv")
-print(response)
+print(print_hello("Marv"))
 
 def add(a:int,b:int) -> int:
     return a + b
